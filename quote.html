@@ -1,0 +1,100 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get a Quote | DashRx</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div class="page">
+<div class="header">
+  <div class="navbar">
+    <a class="brand" href="index.html">
+      <img src="assets/dashrx_logo.png" alt="DashRx logo">
+      
+    </a>
+    <nav class="navlinks"><a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="quote.html" aria-current="page">Get a Quote</a>
+<a href="careers.html">Careers</a>
+<a href="https://dispatch.spoke.com/login" target="_blank" rel="noopener noreferrer">Client Portal</a>
+      <a href="contact.html">Contact</a></nav>
+    <button class="navbtn" type="button" data-navbtn aria-expanded="false" aria-label="Open menu">Menu</button>
+  </div>
+  <div class="drawer" data-drawer data-open="false"><a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="quote.html">Get a Quote</a>
+<a href="careers.html">Careers</a>
+<a href="https://dispatch.spoke.com/login" target="_blank" rel="noopener noreferrer">Client Portal</a>
+      <a href="contact.html">Contact</a></div>
+</div>
+
+<div class="pagehead"><div class="breadcrumb">Get a Quote</div><h1>Request Your Quote in Seconds</h1></div>
+<section class="section"><div class="panel">
+  <div class="stepper" data-stepper>
+    <div class="progressbar"><div data-progress></div></div>
+    <div class="steps">
+      <div class="pill active" data-step-pill>1. Pharmacy</div>
+      <div class="pill" data-step-pill>2. Volume</div>
+      <div class="pill" data-step-pill>3. Preferences</div>
+    </div>
+    <form class="form" data-math="7" action="https://formsubmit.co/dashrx10@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_subject" value="New DashRx Quote Request">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="thankyou.html">
+<input type="text" name="_honey" class="hp" autocomplete="off" tabindex="-1">
+<div class="hp"><input name="company" autocomplete="off"></div>
+
+      <div class="step active">
+        <div class="row2">
+          <div><label>Pharmacy Name</label><input name="pharmacy" placeholder="Pharmacy Name" required></div>
+          <div><label>Contact Name</label><input name="contact" placeholder="Ex: John Doe" required></div>
+        </div>
+        <div class="row2">
+          <div><label>Email</label><input name="email" type="email" placeholder="name@pharmacy.com" required></div>
+          <div><label>Phone</label><input name="phone" placeholder="(313) 123-4567" required></div>
+        </div>
+        <div class="helper">Next step asks about delivery volume and service area.</div>
+      </div>
+
+      <div class="step">
+        <div class="row2">
+          <div><label>Average Weekly Deliveries</label><input name="weekly" type="number" min="0" placeholder="Ex: 120" required><div class="helper">Estimate is fine — we just need a starting point.</div></div>
+          <div><label>Service Area</label><input name="area" placeholder="Cities / neighborhoods you serve" required><div class="helper">Example: Dearborn, Detroit, Allen Park</div></div>
+        </div>
+        <div><label>Delivery Type</label><select name="delivery_type" required>
+          <option value="">Select one</option><option>Same-day</option><option>Next-day</option><option>Scheduled routes</option><option>Mix of all</option>
+        </select></div>
+      </div>
+
+      <div class="step">
+        <div class="row2">
+          <div><label>Preferred callback time</label><select name="callback" required>
+            <option>Anytime</option><option>Morning</option><option>Afternoon</option><option>Evening</option>
+          </select></div>
+          <div><label>Spam check (3 + 4)</label><input name="math_check" inputmode="numeric" placeholder="Type the answer" required><div class="helper">This blocks bots without annoying real people.</div></div>
+        </div>
+        <div><label>Additional details</label><textarea name="message" placeholder="Delivery windows, signature requirements, special handling, etc."></textarea></div>
+      </div>
+
+      <div class="actions">
+        <button type="button" class="btnsubtle" data-back>Back</button>
+        <button type="button" class="btnform" data-next>Next</button>
+        <button type="submit" class="btnform" data-submit style="display:none;">Submit Quote Request</button>
+      </div>
+    </form>
+  </div>
+</div></section>
+
+<div class="footer">
+  <div class="inner">
+    <div>
+      <strong style="font-size:18px;">DashRx</strong><br>
+      <small>We deliver. You focus on care.</small>
+    </div>
+    <div>
+      <div><a href="tel:+13133332133">(313) 333-2133</a></div>
+      <div><a href="mailto:dashrx10@gmail.com">dashrx10@gmail.com</a></div>
+      <small>© <span id="y"></span> DashRx</small>
+    </div>
+  </div>
+</div>
+<script src="js/main.js"></script>
+</div></body></html>

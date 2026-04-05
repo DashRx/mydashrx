@@ -1,0 +1,222 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DashRx | Prescription Delivery Partner</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div class="page">
+
+<div class="header">
+  <div class="navbar">
+    <a class="brand" href="index.html">
+      <img src="assets/dashrx_logo.png" alt="DashRx logo">
+      <div class="brand-text">
+      </div>
+    </a>
+    <nav class="navlinks"><a href="index.html" aria-current="page">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="quote.html">Get a Quote</a>
+<a href="careers.html">Careers</a>
+<a href="contact.html">Contact</a><a href="https://dispatch.spoke.com/login" target="_blank">Client Portal</a>
+</nav>
+    <button class="navbtn" type="button" data-navbtn aria-expanded="false" aria-label="Open menu">Menu</button>
+  </div>
+  <div class="drawer" data-drawer data-open="false"><a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="quote.html">Get a Quote</a>
+<a href="careers.html">Careers</a>
+<a href="contact.html">Contact</a></div>
+</div>
+
+<div class="hero"><div class="hero-wrap">
+  <canvas class="particles" data-particles></canvas><div class="hero-grid">
+  <div>
+    <div class="kicker"><span class="dot"></span> Built for pharmacies. Loved by patients.</div>
+    <h1>Prescription delivery that feels effortless.</h1>
+    <p>DashRx partners with pharmacies to provide secure, reliable prescription delivery with live tracking, transparent updates, and flexible scheduling — so your team can focus on care, not logistics.</p>
+    <div class="hero-cta">
+      <a class="btn primary" href="quote.html">Request a Quote</a>
+      <a class="btn ghost" href="services.html">Explore Services</a>
+    </div>
+  </div>
+  <aside class="hero-side" aria-label="DashRx live preview widgets">
+    <div class="kpi-row">
+      <div class="kpi"><strong data-counter data-target="100" data-suffix="K+">0</strong><span>Deliveries completed</span></div>
+      <div class="kpi"><strong data-counter data-target="24" data-suffix="/7">0</strong><span>Support availability</span></div>
+    </div>
+    <div class="mapcard">
+      <h3>Mock Route Preview</h3>
+      <div class="mapwrap">
+<svg viewBox="0 0 520 220" xmlns="http://www.w3.org/2000/svg" aria-label="Mock route map">
+  <defs>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,.80)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,.55)"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.22" stroke="white">
+    <path d="M30 30H490" /><path d="M30 70H490" /><path d="M30 110H490" /><path d="M30 150H490" /><path d="M30 190H490" />
+    <path d="M60 20V200" /><path d="M120 20V200" /><path d="M180 20V200" /><path d="M240 20V200" />
+    <path d="M300 20V200" /><path d="M360 20V200" /><path d="M420 20V200" /><path d="M480 20V200" />
+  </g>
+  <path data-mappath d="M60 170 C 130 90, 200 150, 260 100 S 390 60, 460 90" stroke="url(#road)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M60 170 C 130 90, 200 150, 260 100 S 390 60, 460 90" stroke="rgba(18,77,87,.30)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <g filter="url(#glow)">
+    <circle cx="60" cy="170" r="10" fill="white" opacity=".95"/><circle cx="460" cy="90" r="10" fill="white" opacity=".95"/>
+    <text x="44" y="196" font-size="12" fill="white" opacity=".92" font-weight="800">Pharmacy</text>
+    <text x="438" y="118" font-size="12" fill="white" opacity=".92" font-weight="800">Patient</text>
+  </g>
+  <circle data-mapdot cx="60" cy="170" r="7.5" fill="white" opacity=".98" filter="url(#glow)"/>
+</svg>
+</div>
+      <div class="map-legend">Live-feel animation (front-end demo)</div>
+    </div>
+  </aside>
+</div></div></div></div>
+
+
+<section class="section"><div class="panel soft">
+  <h2 class="h2">A delivery status timeline that feels real</h2>
+  <div class="timeline" data-timeline>
+    <div class="tline-bar"><div data-tbar></div></div>
+
+    <div class="tline-steps">
+      <div class="tstep active" data-tstep data-pct="12" data-title="Pickup Confirmed" data-msg="Driver receives the package and confirms pickup in the system.">
+        <span class="dotmini"></span> Pickup
+      </div>
+      <div class="tstep" data-tstep data-pct="38" data-title="In Transit" data-msg="Live tracking is active. ETA updates as the driver moves.">
+        <span class="dotmini"></span> Transit
+      </div>
+      <div class="tstep" data-tstep data-pct="62" data-title="Arriving Soon" data-msg="Patient notified and delivery window confirmed.">
+        <span class="dotmini"></span> ETA
+      </div>
+      <div class="tstep" data-tstep data-pct="84" data-title="At Door" data-msg="Driver arrives and completes verification steps your pharmacy requires.">
+        <span class="dotmini"></span> Door
+      </div>
+      <div class="tstep" data-tstep data-pct="100" data-title="Delivered" data-msg="Delivery completed with proof-of-delivery recorded.">
+        <span class="dotmini"></span> Done
+      </div>
+    </div>
+
+    <div class="tdetail">
+      <strong data-ttitle>Pickup Confirmed</strong>
+      <span data-tmsg>Driver receives the package and confirms pickup in the system.</span>
+    </div>
+  </div>
+</div></section>
+<section style="padding:80px 20px; text-align:center; position:relative; overflow:hidden;">
+  <div style="background:linear-gradient(120deg,#1a8ea0,#b9e2c6); border-radius:30px; padding:60px 40px; color:white; box-shadow:0 20px 50px rgba(0,0,0,0.15);">
+    <p style="letter-spacing:2px; font-weight:600; opacity:0.9;">SERVICING OVER</p>
+    <h1 style="font-size:72px; font-weight:800; margin:10px 0; position:relative;"><span class="glow-num" aria-hidden="true"></span><span data-counter data-target="100" data-suffix="+">0</span> Pharmacies</h1>
+    <p style="font-size:22px; font-weight:500;">In Metro Detroit</p>
+  </div>
+</section>
+
+
+
+<section class="section"><div class="panel soft">
+  <h2 class="h2">What you get with DashRx</h2>
+  <p class="sub">Click any feature card to expand. This keeps it clean but still super detailed.</p>
+  
+<div class="feature-grid">
+  <div class="fcard" role="button" tabindex="0">
+    <div class="chev">⌄</div>
+    <div class="top">
+      <img src="assets/ic_tracking.svg" alt="Live tracking icon">
+      <div>
+        <h3>Live Tracking</h3>
+        <p>Real-time GPS visibility from pickup to delivery.</p>
+      </div>
+    </div>
+    <div class="more">
+      <ul>
+        <li><strong>Live ETA updates</strong> that refresh as drivers move</li>
+        <li><strong>Shareable tracking</strong> for staff visibility</li>
+        <li><strong>Proof of delivery</strong>: photo + signature options</li>
+      </ul>
+      <div class="helper">Tap again to collapse.</div>
+    </div>
+  </div>
+
+  <div class="fcard" role="button" tabindex="0">
+    <div class="chev">⌄</div>
+    <div class="top">
+      <img src="assets/ic_updates.svg" alt="Updates icon">
+      <div>
+        <h3>Pharmacy & Patient Updates</h3>
+        <p>Automatic alerts that reduce phone calls.</p>
+      </div>
+    </div>
+    <div class="more">
+      <ul>
+        <li>Pickup confirmed, in transit, delivered notifications</li>
+        <li>Optional patient-facing messaging (if enabled)</li>
+        <li>Status logs that keep staff in sync</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fcard" role="button" tabindex="0">
+    <div class="chev">⌄</div>
+    <div class="top">
+      <img src="assets/ic_schedule.svg" alt="Scheduling icon">
+      <div>
+        <h3>Flexible Scheduling</h3>
+        <p>Same-day, next-day, and scheduled routes.</p>
+      </div>
+    </div>
+    <div class="more">
+      <ul>
+        <li>Recurring deliveries for adherence programs</li>
+        <li>Batch runs for better cost-per-stop</li>
+        <li>Peak-hour support when you’re busiest</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fcard" role="button" tabindex="0">
+    <div class="chev">⌄</div>
+    <div class="top">
+      <img src="assets/ic_shield.svg" alt="HIPAA compliance icon">
+      <div>
+        <h3>Secure & HIPAA-Compliant</h3>
+        <p>Privacy-first workflows with trained drivers.</p>
+      </div>
+    </div>
+    <div class="more">
+      <ul>
+        <li>Discreet delivery practices</li>
+        <li>Secure handling and verification options</li>
+        <li>Professional driver standards</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div></section>
+
+<section class="section" style="padding-top:18px;"><div class="panel">
+  <h2 class="h2">Why pharmacies use DashRx</h2>
+  <p class="sub">Delivery is part of patient experience. DashRx helps you reduce “where is it?” calls, keep patients loyal, and make delivery predictable and professional.</p>
+</div></section>
+
+
+<div class="footer">
+  <div class="inner">
+    <div>
+      <strong style="font-size:18px;">DashRx</strong><br>
+      <small>Prescription delivery, simplified.</small>
+    </div>
+    <div>
+      <div><a href="tel:+13133332133">(313) 333-2133</a></div>
+      <div><a href="mailto:dashrx10@gmail.com">dashrx10@gmail.com</a></div>
+      <small>EST. 2025</small>
+    </div>
+  </div>
+</div>
+<script src="js/main.js"></script>
+
+</div></body></html>
