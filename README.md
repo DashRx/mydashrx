@@ -1,7 +1,7 @@
 DashRx Website 
 
 Forms now use FormSubmit:
-https://formsubmit.co/malmadrahi7@gmail.com
+https://formsubmit.co/dashrx10@gmail.com
 
 First time setup:
 1. Deploy site (Netlify / Vercel / etc)
