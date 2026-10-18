@@ -1,4 +1,4 @@
-DashRx Website – FormSubmit Version
+DashRx Website 
 
 Forms now use FormSubmit:
 https://formsubmit.co/malmadrahi7@gmail.com
