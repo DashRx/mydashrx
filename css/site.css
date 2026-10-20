@@ -362,3 +362,30 @@ textarea{ min-height:120px; resize:vertical; }
 #rx-full .full-links a{display:inline-flex;align-items:center;text-decoration:none}#rx-full .mobile-header-quote{text-decoration:none}#rx-full .full-footer-links a{font-size:12px}#rx-full .mobile-actions .mobile-quote{background:#124d57;color:white}.rx-content{padding-bottom:35px}.rx-content [hidden]{display:none!important}.rx-content .mapcard{color:#124d57}.rx-content .map-legend{font-size:12px}.rx-content .site-action{cursor:pointer}.rx-content .contact-grid article p{line-height:1.6}.rx-content .form-privacy{font-size:12px;line-height:1.65}#rx-full .full-brand{display:inline-flex}.rx-content .legal-page p{line-height:1.8}.rx-content .coverage-result{margin-top:16px}#rx-full .full-footer-links{align-items:center}@media(max-width:700px){#rx-full .full-links a{font-size:14px;min-height:46px;padding:12px}#rx-full .mobile-actions a{min-height:46px}.rx-content .kpi-row{grid-template-columns:1fr 1fr}.rx-content .mapcard h3{font-size:14px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 
 #rx-full .full-portal-row a{text-decoration:none}#rx-full .mobile-actions .mobile-quote{background:#124d57;color:white}#rx-full a:focus-visible,button:focus-visible{outline:3px solid #2e7b85;outline-offset:3px}
+
+/* A clearer, roomier shared header. */
+#rx-full .full-nav{padding:16px 32px;gap:20px;flex-wrap:nowrap}
+#rx-full .full-logo{width:240px;height:112px;display:block;object-fit:contain}
+#rx-full .full-brand{flex-shrink:0}
+#rx-full .full-links{gap:4px;flex-wrap:nowrap}
+#rx-full .full-links a{font-size:15px;font-weight:650;padding:13px 12px;min-height:48px;white-space:nowrap;border-radius:12px}
+#rx-full .full-links a:hover{background:#edf7f3;color:#124d57}
+#rx-full .full-links .full-quote{padding:14px 18px;box-shadow:0 4px 12px #124d5714}
+#rx-full .full-links .full-quote:hover{background:#1a6975;color:#fff}
+@media(max-width:1150px){
+#rx-full .full-nav{padding:12px 24px;gap:12px;flex-wrap:wrap;justify-content:flex-start}
+#rx-full .full-brand{margin-right:auto}
+#rx-full .full-logo{width:210px;height:98px}
+#rx-full .mobile-menu-button,#rx-full .mobile-header-quote{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 16px;border-radius:12px;font-size:15px;font-weight:650}
+#rx-full .mobile-menu-button{background:#edf7f3;color:#124d57;border:1px solid #d5e6df}
+#rx-full .mobile-header-quote{background:#124d57;color:#fff;border:0}
+#rx-full .full-links{display:none;width:100%;padding:16px 0 4px;grid-template-columns:1fr 1fr;gap:8px;border-top:1px solid #dfede8}
+#rx-full .full-links.is-open{display:grid}
+#rx-full .full-links a{white-space:normal;text-align:left}
+}
+@media(max-width:700px){
+#rx-full .full-nav{padding:10px 16px;gap:8px}
+#rx-full .full-logo{width:174px;height:84px}
+#rx-full .mobile-menu-button,#rx-full .mobile-header-quote{padding:11px 12px;font-size:14px;min-width:0}
+}
+@media(max-width:360px){#rx-full .full-logo{width:152px;height:76px}#rx-full .mobile-header-quote{display:none}}
